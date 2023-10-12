@@ -1,6 +1,6 @@
 -- A script that creates a users table
 -- Create table syntax with constraints
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   id int NOT NULL AUTO_INCREMENT,
   email varchar(255) NOT NULL,
   name varchar(255),
